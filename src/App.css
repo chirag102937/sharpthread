@@ -1,0 +1,150 @@
+/* Basic styling for the layout */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #000;
+  padding: 10px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height:40px;
+
+  
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;  /* Adjust the width as needed */
+  height: auto;
+  
+}
+
+
+
+
+
+.header-right a {
+  margin-left: 40px;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #f7d5d5;
+  padding: 50px 0;
+}
+
+.hero-text {
+  max-width: 40%;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  color: black;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 250px;
+  height: auto;
+}
+
+.best-sellers {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.best-sellers h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 150px;
+  height: 150px;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px;
+}
+
+.product-card p {
+  font-size: 14px;
+}
+
+/* Collection Section */
+.collections {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.collection {
+  text-align: center;
+}
+
+.collection h3 {
+  font-size: 1.5rem;
+}
+
+.collection button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
